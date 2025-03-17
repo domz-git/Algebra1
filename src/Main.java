@@ -10,7 +10,7 @@ public class Main {
 
             for (char ch : numStr.toCharArray()) {
                 int digit = Character.getNumericValue(ch);
-                armsNumNumeric += Math.pow(digit, numStr.length());
+                armsNumNumeric += (int) Math.pow(digit, numStr.length());
             }
 
             if (armsNumNumeric == armsNum) {
